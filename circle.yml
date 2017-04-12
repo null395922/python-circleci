@@ -5,4 +5,5 @@ dependencies:
 test:
   override:
     - cd python-circleci
+    - find . -name \*.pyc -o -name \*.pyo -o -name __pycache__ -exec rm -rf {} +
     - pytest
