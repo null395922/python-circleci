@@ -1,4 +1,6 @@
-
+dependencies:
+  override:
+    - pip install -U pytest
 test:
   override:
     - pytest
