@@ -1,7 +1,6 @@
 dependencies:
   override:
     - pip install -U pytest
-    - git clone https://github.com/poldrack/python-circleci.git
 test:
   override:
     - cd python-circleci
